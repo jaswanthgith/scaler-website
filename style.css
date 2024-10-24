@@ -1,0 +1,424 @@
+.nav-link:hover {
+    color: blue;
+
+}
+
+#btn1 {
+    border: 1px solid blue;
+    color: blue;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+#btn1:hover {
+    background-color: blue;
+    color: white;
+}
+
+#btn2 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 6.5px 20px;
+    border-radius: 5px;
+}
+
+.hero-section {
+    background-image: url(./img.svg);
+    background-color: black;
+    background-position: center;
+    height: 750px;
+}
+
+.container {
+    margin-top: -180px;
+    position: relative;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 500;
+    padding: 0 15px;
+}
+
+#xplore {
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+}
+
+form {
+    gap: 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 1200px;
+    margin-left: 150px;
+    margin-top: -180px;
+    font-size: 34px;
+    box-shadow: 2px 2px 5px grey;
+    margin-bottom: 20px;
+
+    #cards {
+        display: grid;
+        grid-template-columns: repeat(3, 0fr);
+        gap: 20px;
+
+        #card1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 350px;
+            height: 250px;
+            padding: 10px;
+            background-color: #0f8cff;
+            border-radius: 10px;
+            color: white;
+            overflow: hidden;
+
+            .slantbox {
+                width: inherit;
+                position: relative;
+
+                .slant {
+                    width: 180px;
+                    height: 40px;
+                    background-color: #ffcc00;
+                    position: absolute;
+                    top: 0px;
+                    right: 1px;
+                    transform: rotate(40deg);
+                    margin-right: -35px;
+                    overflow: hidden;
+                }
+            }
+
+            img {
+                height: 120px;
+                width: 120px;
+            }
+
+            #name {
+                text-align: center;
+            }
+
+        }
+
+        #card2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 350px;
+            height: 250px;
+            padding: 10px;
+            background-color: #ea576f;
+            border-radius: 10px;
+            color: white;
+            overflow: hidden;
+
+            .slantbox {
+                width: inherit;
+                position: relative;
+
+                .slant {
+                    width: 180px;
+                    height: 40px;
+                    background-color: #9243ce;
+                    position: absolute;
+                    top: 0px;
+                    right: 1px;
+                    transform: rotate(40deg);
+                    margin-right: -35px;
+                    overflow: hidden;
+                }
+            }
+        }
+
+
+        img {
+            height: 120px;
+            width: 120px;
+        }
+
+        #name {
+            text-align: center;
+        }
+
+    }
+
+    #card3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 250px;
+        padding: 10px;
+        background-color: #5cdb57;
+        border-radius: 10px;
+        color: white;
+        overflow: hidden;
+
+        .slantbox {
+            width: inherit;
+            position: relative;
+
+            .slant {
+                width: 180px;
+                height: 40px;
+                background-color: #0f8cff;
+                position: absolute;
+                top: 0px;
+                right: 1px;
+                transform: rotate(40deg);
+                margin-right: -35px;
+                overflow: hidden;
+            }
+        }
+    }
+
+
+    img {
+        height: 120px;
+        width: 120px;
+    }
+
+    #name {
+        text-align: center;
+    }
+
+    #card4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 250px;
+        padding: 10px;
+        background-color: #4c96e5;
+        border-radius: 10px;
+        color: white;
+        overflow: hidden;
+
+        .slantbox {
+            width: inherit;
+            position: relative;
+
+            .slant {
+                width: 180px;
+                height: 40px;
+                background-color: #ffcc00;
+                position: absolute;
+                top: 0px;
+                right: 1px;
+                transform: rotate(40deg);
+                margin-right: -35px;
+                overflow: hidden;
+            }
+        }
+
+        img {
+            height: 120px;
+            width: 120px;
+        }
+
+        #name {
+            text-align: center;
+        }
+
+    }
+
+    #card5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 250px;
+        padding: 10px;
+        background-color: #fca733;
+        border-radius: 10px;
+        color: white;
+        overflow: hidden;
+
+        .slantbox {
+            width: inherit;
+            position: relative;
+
+            .slant {
+                width: 180px;
+                height: 40px;
+                background-color: #0f8cff;
+                position: absolute;
+                top: 0px;
+                right: 1px;
+                transform: rotate(40deg);
+                margin-right: -50px;
+                overflow: hidden;
+            }
+        }
+
+        img {
+            height: 120px;
+            width: 120px;
+        }
+
+        #name {
+            text-align: center;
+        }
+
+    }
+
+    #card6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 250px;
+        padding: 10px;
+        background-color: #a768d7;
+        border-radius: 10px;
+        color: white;
+        overflow: hidden;
+
+        .slantbox {
+            width: inherit;
+            position: relative;
+
+            .slant {
+                width: 180px;
+                height: 40px;
+                background-color: #fc9100;
+                position: absolute;
+                top: 0px;
+                right: 1px;
+                transform: rotate(40deg);
+                margin-right: -35px;
+                overflow: hidden;
+            }
+        }
+
+        img {
+            height: 120px;
+            width: 120px;
+        }
+
+        #name {
+            text-align: center;
+        }
+
+    }
+}
+
+#flexible {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #boxes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-top: 20px;
+
+
+        #box1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 350px;
+            height: 230px;
+            padding: 10px;
+            border: 0.5px grey solid;
+            border-radius: 10px;
+            color: black;
+            grid-auto-flow: 10px;
+
+            img {
+                height: 80px;
+                width: 80px;
+            }
+
+            #mat {
+                text-align: center;
+
+                strong {
+                    font-size: 25px;
+                }
+
+                p {
+                    color: grey;
+                    font-size: 18px;
+                }
+            }
+
+        }
+    }
+
+    #boxes1 {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+
+
+        #box2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 350px;
+            height: 230px;
+            padding: 10px;
+            border: 0.5px grey solid;
+            border-radius: 10px;
+            color: black;
+            grid-auto-flow: 10px;
+
+            img {
+                height: 65px;
+                width: 80px;
+            }
+
+            #mat {
+                text-align: center;
+
+                strong {
+                    font-size: 20px;
+                }
+
+                p {
+                    color: grey;
+                    font-size: 15px;
+                }
+            }
+
+        }
+
+
+
+
+
+    }
+}
